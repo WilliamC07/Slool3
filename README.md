@@ -7,6 +7,8 @@ Make sure to run the following commands:
    composr install
    npm install
    npm run dev
-   cp .env.example .env # Fill out database fields
+   cp .env.example .env
+   # Fill out database fields
+   php artisan jwt:secret
    npm run dev
 ```
